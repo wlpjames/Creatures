@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wolf</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body onload="startGame()">
+    <div class="container center">
+      <h1 class="center title">Wolf</h1>
+      <div class="flow-right controls">
+        <span>Score: <span id="Score">0</span></span>
+        <span>prey-lifespan: <span id="unchecked-count">0</span></span>
+      </div>
+      <canvas id = "canvas" class = "main-canvas center"></canvas> 
+      <ul class = "center">
+        <input type="button" name="start simulation" id = "simulate" content ="start simulation"></input>
+        <input type="button" name="skip generations"></input>
+      </ul> 
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
